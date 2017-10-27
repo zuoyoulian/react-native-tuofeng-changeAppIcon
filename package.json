@@ -1,8 +1,8 @@
 {
   "name": "react-native-tuofeng-changeAppIcon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React Native module that allows you to use native to set App Icon",
-  "main": "index.js",
+  "main": "index.ios.js",
   "repository": {
     "type": "git",
     "url": ""
