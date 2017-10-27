@@ -9,11 +9,3 @@ export default function changeAppIcon(info, callBack) {
         callBack(respone);
     });
 }
-
-// export default class ChangeAppIcon {
-//     static changeAppIcon(info, callBack) {
-        // TFChangeAppIcon.changeAppIconWithInfo(info, (respone) => {
-        //     callBack(respone);
-        // });
-//     }
-// }

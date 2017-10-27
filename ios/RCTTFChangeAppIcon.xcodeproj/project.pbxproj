@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19F5BA911FA2E15F0001E69E /* TFChangeAppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5BA901FA2E15F0001E69E /* TFChangeAppIcon.m */; };
+		19F5BB1C1FA30EBD0001E69E /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5BB1B1FA30EBD0001E69E /* UIViewController+Present.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		19F5BA831FA2E0790001E69E /* libRCTTFChangeAppIcon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTTFChangeAppIcon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F5BA8F1FA2E15F0001E69E /* TFChangeAppIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFChangeAppIcon.h; sourceTree = "<group>"; };
 		19F5BA901FA2E15F0001E69E /* TFChangeAppIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFChangeAppIcon.m; sourceTree = "<group>"; };
+		19F5BB1A1FA30EBD0001E69E /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		19F5BB1B1FA30EBD0001E69E /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		19F5BA7A1FA2E0790001E69E = {
 			isa = PBXGroup;
 			children = (
+				19F5BB1A1FA30EBD0001E69E /* UIViewController+Present.h */,
+				19F5BB1B1FA30EBD0001E69E /* UIViewController+Present.m */,
 				19F5BA8F1FA2E15F0001E69E /* TFChangeAppIcon.h */,
 				19F5BA901FA2E15F0001E69E /* TFChangeAppIcon.m */,
 				19F5BA841FA2E0790001E69E /* Products */,
@@ -113,6 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F5BB1C1FA30EBD0001E69E /* UIViewController+Present.m in Sources */,
 				19F5BA911FA2E15F0001E69E /* TFChangeAppIcon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
